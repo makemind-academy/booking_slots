@@ -1,0 +1,17 @@
+{
+  "schemaVersion": "1.0.0",
+  "manifest": {
+    "id": "com.makemind.sample.booking_slots",
+    "name": "Booking",
+    "version": "1.0.0",
+    "schemaVersion": "1.0.0",
+    "type": "application",
+    "entryPoint": "ui.app",
+    "description": "Today's slots, and what happens when two people want the same one.",
+    "provider": "MakeMind",
+    "license": "MIT",
+    "category": "business",
+    "tags": ["booking", "race", "sample"],
+    "publisher": { "name": "makemind.dev", "email": "dev@makemind.dev" }
+  }
+}

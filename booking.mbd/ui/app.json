@@ -1,0 +1,69 @@
+{
+  "type": "application",
+  "title": "Booking",
+  "version": "1.0.0",
+  "initialRoute": "/",
+  "routes": {
+    "/": "ui://pages/day"
+  },
+  "theme": {
+    "mode": "light",
+    "color": {
+      "primary": "#0f766e",
+      "onPrimary": "#ffffff",
+      "primaryContainer": "#d6f0ec",
+      "onPrimaryContainer": "#04302c",
+      "surface": "#ffffff",
+      "onSurface": "#121a19",
+      "surfaceContainerHighest": "#f2f6f5",
+      "onSurfaceVariant": "#7d8b89",
+      "outline": "#e0e9e7",
+      "outlineVariant": "#e0e9e7",
+      "error": "#b3261e",
+      "onError": "#ffffff",
+      "warning": "#b45309",
+      "onWarning": "#ffffff",
+      "inverseSurface": "#121a19",
+      "inverseOnSurface": "#ffffff"
+    },
+    "spacing": {
+      "xxs": 2,
+      "xs": 4,
+      "sm": 8,
+      "md": 16,
+      "lg": 24,
+      "xl": 32,
+      "2xl": 48
+    },
+    "shape": {
+      "none": 0,
+      "extraSmall": 4,
+      "small": 8,
+      "medium": 12,
+      "large": 16,
+      "extraLarge": 28,
+      "full": 999
+    },
+    "fonts": {
+      "JetBrainsMono": {
+        "source": "asset",
+        "family": "JetBrainsMono"
+      }
+    }
+  },
+  "state": {
+    "initial": {
+      "rows": [],
+      "takenCount": 0,
+      "doubleCount": 0,
+      "doubleNote": "",
+      "bookingRule": "",
+      "notice": ""
+    }
+  },
+  "onInit": {
+    "type": "tool",
+    "tool": "book.state",
+    "params": {}
+  }
+}
